@@ -70,11 +70,11 @@ h1 {
     line-height: 50px;
     font-size: 25px;
     border-bottom: 1px solid lightgray;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .task-container {
     padding-left: 20px;
-    font-family: 'Sunflower', sans-serif;
     color: rgb(65, 65, 65);
 }
 
