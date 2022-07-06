@@ -70,12 +70,12 @@ h1 {
     line-height: 50px;
     font-size: 25px;
     border-bottom: 1px solid lightgray;
-    font-family: 'Do Hyeon', sans-serif;
 }
 
 .task-container {
     padding-left: 20px;
     color: rgb(65, 65, 65);
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .task-done {
@@ -83,6 +83,7 @@ h1 {
     background: #eee;
     width: 65%;
     padding-left: 20px;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .input-area {
