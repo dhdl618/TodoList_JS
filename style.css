@@ -116,6 +116,17 @@ h1 {
 }
 
 
-.a {
-color: #cca115;
+/* 메인 제목에 Link추가 */
+.hyperlink {
+    text-decoration-line: none;
+    transition: 0.18s;
+}
+.hyperlink:link, .hyperlink:visited {
+    color: rgb(95, 95, 95);
+}
+.hyperlink:hover {
+    color: pink;
+}
+.hyperlink:active {
+    filter: brightness(0.8);
 }
