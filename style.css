@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    background: rgb(68, 68, 68);
+    /* 반복되는 배경 해결방법 background-repeat: no-repeat;
+    화면에 꽉 채우는 방법  background-size: cover; */
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+    color: rgb(95, 95, 95);
+}
+
+.container {
+    background: rgb(250, 250, 250);
+    min-height: 100vh;       /* vh = 보는 화면(모니터화면) */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.up-area {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+#task-input {
+    border: none;
+    background-color: #eee;
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+    padding-left: 7px;
+}
+#task-input::placeholder {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.task-area {
+    border: 5px solid lightgray;
+}
+
+.task-tabs {
+    display: flex;
+    border-bottom: 5px solid lightgray;
+    position: relative;
+}
+.task-tabs div{
+    padding: 1em;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+}
+
+#underline {
+    height: 4px;
+    background-color: #ffc0cb;
+    position: absolute;
+    width: 50px;
+    left: 1px;
+    top: 42px;
+    padding: 0px;
+    transition: 0.3s;
+}
+
+.task {
+    display: flex;            /* 가로정렬 */
+    justify-content: space-between;
+    padding: 1em;
+    height: 100px;
+    line-height: 50px;
+    font-size: 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.task-container {
+    padding-left: 20px;
+    font-family: 'Sunflower', sans-serif;
+    color: rgb(65, 65, 65);
+}
+
+.task-done {
+    text-decoration: line-through;
+    background: #eee;
+    width: 65%;
+    padding-left: 20px;
+}
+
+.input-area {
+    margin-top: 20px;
+}
+
+#add-btn {
+    border: none;
+    border-radius: 15px;
+    margin-left: 5px;
+    transition: 0.15s;
+}
+#add-btn:hover {
+    background: rgb(80, 80, 80);
+    color: white;
+    font-weight: 700;
+}
+
+.check-btn, .delete-btn {
+    border: none;
+    background: rgb(250, 250, 250);
+    margin: 0px 10px;
+}
+
+#all-task, #ongoing-task, #done-task {
+    transition: 0.1.7s;
+}
+#all-task:hover, #ongoing-task:hover, #done-task:hover {
+    font-weight: 700;
+    filter: invert(70%) sepia(46%) saturate(242%) hue-rotate(303deg) brightness(106%) contrast(102%);
+}
+
+
+.a {
+color: #cca115;
+}
